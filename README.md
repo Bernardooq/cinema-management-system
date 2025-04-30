@@ -94,5 +94,7 @@ git clone https://github.com/yourusername/cinema-management-system
 ```
 2. Import the project into your Java IDE
 3. Set your database credentials in the DB connection file
-4. Run the application
-
+4. Run the application with the next command from the root of your project:
+```
+java -cp "bin;lib/*" App
+```
