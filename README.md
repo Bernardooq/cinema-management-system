@@ -1,8 +1,8 @@
-# 🎬 Cinema Management System
+# Cinema Management System
 
 A desktop application built in Java for managing the operations of a cinema. It allows users to register, view and filter movies, and purchase tickets. Administrators can manage users, theaters, movies, and showtimes.
 
-## 📚 Features
+## Features
 
 - User registration and login
 - Movie catalog viewing and filtering
@@ -10,14 +10,14 @@ A desktop application built in Java for managing the operations of a cinema. It 
 - Ticket purchases and transaction tracking
 - Admin features for managing users, movies, and functions
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-- Java (Swing or JavaFX)
+- Java
 - MySQL
 - JDBC
 - MVC Architecture
 
-## 🗄️ Database Schema
+## Database Schema
 
 The system uses a MySQL database with the following tables:
 
@@ -28,6 +28,7 @@ The system uses a MySQL database with the following tables:
 - `transaccion`: stores ticket purchases
 
 To initialize the database, use the following SQL:
+
 ```sql
 REATE DATABASE cinema;
 USE cinema;
@@ -87,12 +88,14 @@ CREATE TABLE transaccion (
 );
 ```
 
-## 🚀 Getting Started
+## Getting Started
+
 1. Clone the repository
+
 ```
 git clone https://github.com/yourusername/cinema-management-system
 ```
+
 2. Import the project into your Java IDE
 3. Set your database credentials in the DB connection file
 4. Run the application
-
